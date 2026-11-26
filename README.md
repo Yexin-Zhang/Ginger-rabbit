@@ -1,6 +1,6 @@
 # Ginger rabbits: analysis code
 
-Code for Alves, Zhang *et al.*, "Camouflage against eagles favours a domestic allele in wild rabbits" (submitted).
+Code for Alves *et al.*, "Camouflage against eagles favours a domestic allele in wild rabbits" (submitted).
 
 Sequence processing, variant calling, phasing and population-genetic analyses used published software, with versions and parameters given in the Methods and Supplementary Information. This repository contains the R scripts for the predation, selection, substrate-colour, PCA and MC1R tree analyses.
 

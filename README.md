@@ -55,11 +55,6 @@ Expected results:
 - **05**: PCA plots for 88 rabbits (81 Australian, 7 domestic ginger).
 - **06**: UPGMA tree (Newick and PDF) for 129 rabbits (90 wild, 39 domestic).
 
-## Use on your own data
-
-- **01**: change the target frequency, starting frequencies, numbers of generations and `d` at the top of the script.
-- **02**: replace the attack counts and the numbers of deployed models at the top of the script.
-- **03–06**: supply tables in the same format as those in `data/`.
 
 ## Licence
 

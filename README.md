@@ -44,18 +44,6 @@ Rscript scripts/05_pca.R
 Rscript scripts/06_upgma_tree.R
 ```
 
-Expected run time: under 10 seconds per script on a normal desktop computer. Outputs are written to `results/`; the expected outputs are included in this repository.
-
-Expected results:
-
-- **01**: `results/01_selection_model/summary_table_genetic.csv` reproduces Supplementary Table 6.
-- **02**: canids vs birds of prey, OR = 0.356, P = 0.029. Within guilds, RR = 1.90 (P = 0.049) for canids and RR = 0.67 (P = 0.172) for birds of prey.
-- **03**: GLMM P = 0.014 for eagle prey (35 ginger and 167 grey rabbits from 30 nests) vs field surveys.
-- **04**: genotype data, R = 0.57, P = 5.2 × 10⁻³ (195 rabbits, 22 locations); phenotype data, R = 0.85, P = 1.3 × 10⁻⁹ (11,683 rabbits, 31 locations).
-- **05**: PCA plots for 88 rabbits (81 Australian, 7 domestic ginger).
-- **06**: UPGMA tree (Newick and PDF) for 129 rabbits (90 wild, 39 domestic).
-
-
-## Licence
+Expected run time: under 60 seconds per script on a normal desktop computer. Outputs are written to `results/`; the expected outputs are included in this repository.
 
 MIT. See `LICENSE`.
